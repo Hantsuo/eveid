@@ -1,5 +1,5 @@
 name: eve_tools # 这是你的插件的唯一识别名。
-desc: eve查询工具。 # 插件简短描述
-help: 输入 /eveid 角色 。 # 插件的帮助信息
-version: v1.1 # 插件版本号。格式：v1.1.1 或者 v1.1
+desc: EVE角色信息查询工具 # 插件简短描述
+help: 输入 /eveid 角色  # 插件的帮助信息
+version: v1.0 # 插件版本号。格式：v1.1.1 或者 v1.1
 author: Persona # 作者
