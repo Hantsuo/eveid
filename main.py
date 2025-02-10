@@ -1,16 +1,5 @@
 from astrbot.api.event import filter, AstrMessageEvent
-from astrbot.api.event import filter, AstrMessageEvent
 from astrbot.api.star import Context, Star, register
-import requests
-from datetime import datetime
-
-
-@register(
-    name="eve_tools",
-    version="v1.1",
-    author="Persona", 
-    desc="EVE角色信息查询工具"
-)
 import requests
 from datetime import datetime
 
