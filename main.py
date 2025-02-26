@@ -145,8 +145,8 @@ def eveid(name: str) -> str:
     # 格式化输出文本
     output = f"角色 {name} (角色ID: {character_id}) 的雇佣历史：\n"
     for corp in result['data']['corp_history']:
-        output += f"[{corp['start_date']}] 加入 {corp['name']} (ID: {corp['corp_id']})\n"
-        output += f"└─ 雇佣时长: {corp['duration']}\n\n"
+        output += f"[{corp['start_date']}] 加入 {corp['name']}\n"
+        output += f"└─ 雇佣时长: {corp['duration']}\n"
     
     return output
 
